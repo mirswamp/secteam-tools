@@ -1,6 +1,6 @@
 #!/bin/sh
 #--------------------General notes/checks for the script--------------------
-#Make sure you have a reliable Internet conection before running this script
+#Make sure you have a reliable Internet connection before running this script
 wget -q --spider http://google.com
 if [ $? -ne 0 ];
 then
